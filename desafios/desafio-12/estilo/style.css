@@ -30,7 +30,7 @@ header > h1{
 }
 header > p{
     padding-bottom: 50px;
-    font-size: 1em;
+    font-size: 0.5em;
     font-size: 2vw;
 }
 a{
@@ -45,20 +45,37 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
-section.imagem > p{
-    display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.363);
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem{
     background-color: gray;
     color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+    text-shadow: 2px 1px 0px black;
+}
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+section#img2{
+background-image: url('../imagens/background002.jpg');
 }
 
 section.normal{
@@ -71,4 +88,5 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+    font-size: 1.5vw;
 }
