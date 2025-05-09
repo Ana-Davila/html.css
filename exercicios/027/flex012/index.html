@@ -17,23 +17,27 @@
             background-color: blue;
             padding: 10px;
             border: 1px solid black;
-
-            flex-basis: 200px;
-
-
-
         }
         div#a{
-            flex-shrink: 1;
+            /*flex-shrink: 1;
             flex-grow: 0;
+            flex-basis: 200px;*/
+
+            flex: 0 1 200px;
         }
         div#b{
-           flex-shrink: 1; 
+           /*flex-shrink: 1; 
            flex-grow: 1;
+           flex-basis: 200px;*/
+        
+            flex: 1 1 200px;
         }
         div#c{
-           flex-shrink: 1; 
+           /*flex-shrink: 1; 
            flex-grow:0 ;
+           flex-basis: auto;*/
+
+           flex: 0 1 auto;
         }
     </style>
 </head>
