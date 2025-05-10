@@ -42,11 +42,11 @@ header > nav > a{
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    transition: all 0.3s;
 }
 header > nav> a:hover{
     background-color: white;
     color: black;
+     transition: all 0.3s;
     transform:translateY(-1px);
 }
 main{
